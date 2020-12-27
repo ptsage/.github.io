@@ -29,14 +29,13 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body 
-	<!-- Google Tag Manager (noscript) -->
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDCSM48"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<!-- End Google Tag Manager (noscript) -->
-	
-	class="is-preload">
-
+	<body class="is-preload">
+		<script type="application/javascript">
+			function getIP(json) {
+			dataLayer.push({"event":"ipEvent","ipAddress" : json.ip});
+				}
+				</script>
+				<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
