@@ -32,27 +32,15 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
 
-body { 
-  font-family: 'Open Sans', 'sans-serif';
-  color: #cecece;
-  background: #222;
-  overflow: hidden;
-}
 .item-1, 
 .item-2, 
 .item-3 {
-	position: absolute;
-  display: block;
-	top: 2em;
-  
-  width: 60%;
-  
-  font-size: 2em;
-
+	position: sticky;
+  display:  block;
+   width: 90%;
 	animation-duration: 20s;
-	animation-timing-function: ease-in-out;
+	animation-timing-function: cubic-bezier(0,0,1,1);
 	animation-iteration-count: infinite;
 }
 .item-1{
