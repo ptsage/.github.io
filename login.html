@@ -1,0 +1,144 @@
+<html>
+	<head>
+	<title>Login</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/01.css"/>
+	
+		<style>
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #eee;
+  width: 100%;
+}
+
+.login {
+  overflow: hidden;
+}
+.login .belt {
+  width: 200%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+.login .state {
+  width: 50%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.login .state-1 {
+  background: #673AB7;
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+}
+.login .state-2 {
+  background: #fff;
+  box-shadow: 0px 0px 0px black;
+  z-index: 2;
+  -webkit-transition: all 600ms ease-in-out;
+  transition: all 600ms ease-in-out;
+}
+.login .state-2 .error {
+  font-size: 200px;
+}
+.login .state-2 .error img {
+  width: 160px;
+  height: 160px;
+}
+.login .button, .login input {
+  width: 300px;
+  padding: 20px;
+  border: none;
+  margin-bottom: 20px;
+}
+.login .button {
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0px 15px 10px -10px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 200ms cubic-bezier(0.25, 0.39, 0.39, 2.01);
+  transition: all 200ms cubic-bezier(0.25, 0.39, 0.39, 2.01);
+}
+.login .button:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  box-shadow: 0px 25px 15px -15px rgba(0, 0, 0, 0.3);
+}
+.login input {
+  outline: none;
+}
+.login.is-transitioned .belt {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.login.is-transitioned .state-1 {
+  -webkit-transform: scale(0.3) rotateY(-90deg);
+  transform: scale(0.3) rotateY(-90deg);
+}
+</style>
+		</head>
+	<body >
+<h1 style="text-align:center">  KHO ALBUM 18+ </H1>
+<div class="container">
+  <div class="login no-padding">
+    <div class="belt">
+      <div class="state state-1">
+        <input placeholder="HOA BACH LIEN ADMIN ACCOUNT" />
+        <input placeholder="Mật Khẩu là gì ?" />
+        <div class="button">Đăng Nhập</div>
+      </div>
+      <div class="state state-2">
+        <div class="error">
+          4<img src="https://s-media-cache-ak0.pinimg.com/originals/54/ef/1c/54ef1cfe2dbd7e8d20f2044346feb75f.png">4
+        </div>
+        <h2>OWf??</h2>
+        <h4>vui ti tui</h4>
+        <div class="button"><span>Back</div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script id="rendered-js">
+$('.login .button').click(function(){
+  $(this).parents('.login').toggleClass('is-transitioned');
+});
+    </script>
+
+  </body>
