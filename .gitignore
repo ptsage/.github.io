@@ -1,0 +1,12 @@
+
+story/images/spotlight01.jpg
+*.jpg
+*.svg
+*.eot
+*.ttf
+*.woff2
+*.scss
+*.js
+*.css
+*.woff
+*.html
