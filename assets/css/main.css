@@ -1052,6 +1052,13 @@ input, select, textarea {
 			-ms-object-position: 25% 75%;
 			object-position: 25% 75%;
 		}
+			img {
+				  opacity: 0.2;
+				}
+
+			img:hover {	
+				  opacity: 1.0;
+				}
 
 		.image img {
 			display: block;
@@ -2251,64 +2258,77 @@ input, select, textarea {
 	}
 
 		.panel > * {
-			 
+			 border-bottom: 2px double white;
+			  border-top: 2px double white;
+			border-radius: 2px; 
 			position: relative;
 			min-width: 10rem;
+			
+	
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+				background-image: url("../../images/overlay.px"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
 				background-size: 128px 128px, auto;
-
+				opacity: 0.5;
 			}
 			
 
 			.panel > *.color1 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+				background-image: url("../../images/overlay.px"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: 128px 128px, auto;
 				background-color: #726193;
+				opacity: 0.2;
 			}
 
 			.panel > *.color2 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+				background-image: url("../../images/overlay.px"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: 128px 128px, auto;
 				background-color: #e37b7c;
+				display: block ;
+				opacity: 0.2;
 			}
 
 			.panel > *.color3 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+				background-image: url("../../images/overlay.px"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: 128px 128px, auto;
 				background-color: #ffe4b4;
+				opacity: 0.2;
 			}
 
 			.panel > *.color4 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+				background-image: url("../../images/overlay.px"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 				background-size: 128px 128px, auto;
 				background-color: #353865;
+				opacity: 0.2;
 			}
 
 			.panel > *.color1-alt {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
+				background-image: url("../../images/overlay.px"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
 				background-size: 128px 128px, auto;
 				background-color: #6c5e86;
+				opacity: 0.2;
 			}
 
 			.panel > *.color2-alt {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
+				background-image: url("../../images/overlay.px"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
 				background-size: 128px 128px, auto;
 				background-color: #de7172;
+				opacity: 0.2;
 			}
 
 			.panel > *.color3-alt {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
+				background-image: url("../../images/overlay.px"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
 				background-size: 128px 128px, auto;
 				background-color: #fedea6;
+				opacity: 0.2;
 			}
 
 			.panel > *.color4-alt {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
+				background-image: url("../../images/overlay.px"), linear-gradient(45deg, rgba(114, 97, 147, 0.175) 25%, rgba(227, 123, 124, 0.175) 50%, rgba(255, 228, 180, 0.175));
 				background-size: 128px 128px, auto;
 				background-color: #323459;
+				opacity: 0.2;
 			}
 
 		.panel > .intro {
