@@ -190,12 +190,38 @@ input, select, textarea {
 		p.major {
 			font-size: 1.25rem;
 		}
-
+		p.date { 
+		font-size: 1.25rem;
+		color: # 333333;
+		position: absolute;
+	
+		bottom:0;
+		left:50%;
+		margin-left: -25%;
+		  font-size: 20px;
+		 
+		
+		}
+		p.date2 { 
+		font-size: 1.25rem;
+		color: # 333333;
+		position: absolute;
+		
+			width:100%;
+			bottom:0;
+		left:60%;
+		margin-left: -0%;
+		  font-size: 20px;
+		 
+		
+		}
+		
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		line-height: 1.375;
 		letter-spacing: -0.05em;
 		margin: 0 0 1rem 0;
+		text-decoration: underline;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
