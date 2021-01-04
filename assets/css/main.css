@@ -385,12 +385,15 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: rgba(255, 255, 255, 0.875);
+		/*color: rgba(255, 255, 255, 0.875);*/
 		font-family: Arial, Helvetica, sans-serif;
 		font-weight: 700;
 		line-height: 1.3;
 		margin: 0 0 0.75rem 0;
 		letter-spacing: -0.05em;
+		color: white;
+  text-shadow: 2px 2px 4px #000000;
+  display: block;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -404,7 +407,7 @@ input, select, textarea {
 
 		h1.major:after, h2.major:after, h3.major:after {
 			content: '';
-			position: absolute;
+			position: sticky; /* old absolute */
 			left: 0;
 			width: 3.5rem;
 			height: 0.1rem;
@@ -463,13 +466,13 @@ input, select, textarea {
 
 	sub {
 		font-size: 0.8rem;
-		position: relative;
+		position: absolute;
 		top: 0.5rem;
 	}
 
 	sup {
 		font-size: 0.8rem;
-		position: relative;
+		position: absolute;
 		top: -0.5rem;
 	}
 
@@ -1057,7 +1060,7 @@ input, select, textarea {
 				}
 
 			img:hover {	
-				  opacity: 1.0;
+				  opacity: 0.8;
 				}
 
 		.image img {
@@ -1065,11 +1068,12 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 40%; display: block;
 		}
 
 			.image.left img, .image.right img {
 				width: 100%;
+				display: block;
 			}
 
 		.image.left {
@@ -2258,8 +2262,8 @@ input, select, textarea {
 	}
 
 		.panel > * {
-			 border-bottom: 2px double white;
-			  border-top: 2px double white;
+			 border-bottom: 2px groove white;
+			  border-top: 2px groove white;
 			border-radius: 2px; 
 			position: relative;
 			min-width: 10rem;
