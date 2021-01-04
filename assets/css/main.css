@@ -2231,6 +2231,8 @@ input, select, textarea {
 /* Panel */
 
 	.panel {
+		  border: 3px solid white;
+			border-radius: 5px; 
 		
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2255,16 +2257,14 @@ input, select, textarea {
 		height: 100%;
 		overflow-x: hidden;
 		overflow-y: auto;
-		border-top-right-radius: 20px;
-		border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 50px;
-		border-top-left-radius: 50px;
+		border-top-right-radius: 40px;
+		border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+		border-top-left-radius: 40px;
 	}
 
 		.panel > * {
-			 border-bottom: 2px groove white;
-			  border-top: 2px groove white;
-			border-radius: 2px; 
+		
 			position: relative;
 			min-width: 10rem;
 			
