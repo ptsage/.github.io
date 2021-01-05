@@ -960,6 +960,7 @@ input, select, textarea {
 		.image.filtered.tinted:after {
 			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25)), linear-gradient(0deg, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125));
 			background-size: 128px 128px, auto, auto;
+			display: block;
 		}
 
 		.image[data-position] img {
@@ -973,6 +974,7 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
+			
 		}
 
 		.image[data-position="top left"] img {
@@ -980,6 +982,7 @@ input, select, textarea {
 			-webkit-object-position: top left;
 			-ms-object-position: top left;
 			object-position: top left;
+			display: block;
 		}
 
 		.image[data-position="top"] img {
@@ -987,6 +990,7 @@ input, select, textarea {
 			-webkit-object-position: top;
 			-ms-object-position: top;
 			object-position: top;
+			display: block;
 		}
 
 		.image[data-position="top right"] img {
@@ -994,6 +998,7 @@ input, select, textarea {
 			-webkit-object-position: top right;
 			-ms-object-position: top right;
 			object-position: top right;
+			display: block;
 		}
 
 		.image[data-position="right"] img {
@@ -2284,6 +2289,7 @@ input, select, textarea {
 			position: relative;
 			min-width: 10rem;
 			
+			
 	
 		}
 
@@ -2653,7 +2659,7 @@ input, select, textarea {
 		}
 
 		.panel.large {
-			width: 65rem;
+			width: 50rem;
 		}
 
 		.panel.small .span-0-25, .panel.medium .span-0-25, .panel.large .span-0-25 {
@@ -3169,7 +3175,7 @@ input, select, textarea {
 			}
 
 			.panel.small, .panel.medium, .panel.large {
-				width: 100% !important;
+				width: auto;
 			}
 
 				.panel.small .span-0-25, .panel.medium .span-0-25, .panel.large .span-0-25 {
@@ -3526,6 +3532,7 @@ input, select, textarea {
 		-ms-align-items: -ms-stretch;
 		align-items: stretch;
 		position: relative;
+		
 	}
 
 		.panel.spotlight > * {
