@@ -2732,32 +2732,32 @@ input, select, textarea {
 
 		.panel.small .span-3-5, .panel.medium .span-3-5, .panel.large .span-3-5 {
 			width: 35%;
-			opacity: 0.5;
+			opacity: 1;
 		}
 
 		.panel.small .span-3-75, .panel.medium .span-3-75, .panel.large .span-3-75 {
 			width: 37.5%;
-			opacity: 0.5;
+			opacity: 1;
 		}
 
 		.panel.small .span-4, .panel.medium .span-4, .panel.large .span-4 {
 			width: 40%;
-			opacity: 0.5;
+			opacity: 1;
 		}
 
 		.panel.small .span-4-25, .panel.medium .span-4-25, .panel.large .span-4-25 {
 			width: 42.5%;
-			opacity: 0.5;
+			opacity: 1;
 		}
 
 		.panel.small .span-4-5, .panel.medium .span-4-5, .panel.large .span-4-5 {
 			width: 45%;
-			opacity: 0.5;
+			opacity: 1;
 		}
 
 		.panel.small .span-4-75, .panel.medium .span-4-75, .panel.large .span-4-75 {
 			width: 47.5%;
-			opacity: 0.5;
+			opacity: 1;
 		}
 
 		.panel.small .span-5, .panel.medium .span-5, .panel.large .span-5 {
