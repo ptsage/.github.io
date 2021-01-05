@@ -2278,10 +2278,10 @@ input, select, textarea {
 		border-bottom-left-radius: 40px;
         border-bottom-right-radius: 40px;
 		border-top-left-radius: 40px;
-			margin-top:20px;
-			margin-bottom: 20px;
-			margin-right: 20px;
-			margin-left:20px;
+			margin-top:5px;
+			margin-bottom: 5px;
+			margin-right: 5px;
+			margin-left:5px;
 	}
 
 		.panel > * {
