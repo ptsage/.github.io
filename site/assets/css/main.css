@@ -2388,8 +2388,11 @@ input, select, textarea {
 		}
 
 			.panel > .intro.joined {
-				width: 18.5rem;
-				padding-right: 0;
+				    width: 20.5rem;
+					padding-right: 2;
+					padding-block: revert;
+					padding-left: 2;
+}
 			}
 
 				.panel > .intro.joined + .inner {
@@ -2759,7 +2762,7 @@ input, select, textarea {
 
 		.panel.small .span-5, .panel.medium .span-5, .panel.large .span-5 {
 			width: 50%;
-			opacity: 0.5;
+			opacity: 1;
 		}
 
 		.panel.small .span-5-25, .panel.medium .span-5-25, .panel.large .span-5-25 {
