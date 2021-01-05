@@ -2273,7 +2273,10 @@ input, select, textarea {
 		border-bottom-left-radius: 40px;
         border-bottom-right-radius: 40px;
 		border-top-left-radius: 40px;
-		
+			margin-top:20px;
+			margin-bottom: 20px;
+			margin-right: 20px;
+			margin-left:20px;
 	}
 
 		.panel > * {
@@ -3635,6 +3638,8 @@ input, select, textarea {
 		flex-shrink: 1;
 		height: 100%;
 		padding: 5rem;
+			margin-top:10px;
+			margin-bottom: 10px;
 	}
 
 		@media screen and (orientation: portrait) {
@@ -3642,6 +3647,7 @@ input, select, textarea {
 			#page-wrapper {
 				padding-left: 2rem;
 				padding-right: 2rem;
+				margin-bottom: 10px;
 			}
 
 		}
@@ -3702,6 +3708,8 @@ input, select, textarea {
 		position: relative;
 		height: 32rem;
 		box-shadow: 0 2rem 4rem 0.25rem rgba(46, 43, 55, 0.575);
+			margin-top:10px;
+			margin-bottom: 10px;
 	}
 
 		#wrapper > .scrollZone {
@@ -3783,6 +3791,8 @@ input, select, textarea {
 			height: auto;
 			margin: 0 0 5rem 0;
 			box-shadow: 0 0.25rem 1.5rem 0.25rem rgba(46, 43, 55, 0.5);
+				margin-top:10px;
+			margin-bottom: 10px;
 		}
 
 			#wrapper > .scrollZone {
@@ -3808,6 +3818,8 @@ input, select, textarea {
 
 		#wrapper {
 			box-shadow: none;
+			margin-top:10px;
+			margin-bottom: 10px;
 		}
 
 			body.is-preload #wrapper {
