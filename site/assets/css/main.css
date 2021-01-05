@@ -38,6 +38,7 @@ body {
 .item-3 {
 	position: absolute-sticky;
   display:  block;
+  opacity: 1;
    width: 100%;
    height: 50%;
 	animation-duration: 20s;
@@ -403,77 +404,85 @@ input, select, textarea {
 
 	h1.major, h2.major, h3.major {
 		position: relative;
+		opacity: 1;
 	}
 
 		h1.major:after, h2.major:after, h3.major:after {
 			content: '';
-			position: sticky; /* old absolute */
+			position: absolute; /* old absolute */
 			left: 0;
 			width: 3.5rem;
 			height: 0.1rem;
 			background-color: rgba(255, 255, 255, 0.25);
+			opacity: 1;
 		}
 
 	h1 {
 		font-size: 3rem;
 		line-height: 1.2;
+		opacity: 1;
+		
 	}
 
 		h1.major {
+			
 			margin: 0 0 2.625rem 0;
+			opacity: 1;
 		}
 
 			h1.major:after {
 				bottom: -1.325rem;
+				opacity: 1;
 			}
 
 	h2 {
 		font-size: 1.75rem;
 		line-height: 1.2;
+		opacity: 1;
 	}
 
 		h2.major {
-			margin: 0 0 1.9875rem 0;
+			margin: 0 0 1.9875rem 0;opacity: 1;
 		}
 
 			h2.major:after {
-				bottom: -1.2rem;
+				bottom: -1.2rem;opacity: 1;
 			}
 
 	h3 {
-		font-size: 1.325rem;
+		font-size: 1.325rem;opacity: 1;
 	}
 
 		h3.major {
-			margin: 0 0 1.875rem 0;
+			margin: 0 0 1.875rem 0;opacity: 1;
 		}
 
 			h3.major:after {
-				bottom: -0.75rem;
+				bottom: -0.75rem;opacity: 1;
 			}
 
 	h4 {
-		font-size: 1rem;
+		font-size: 1rem;opacity: 1;
 	}
 
 	h5 {
-		font-size: 0.9rem;
+		font-size: 0.9rem;opacity: 1;
 	}
 
 	h6 {
-		font-size: 0.7rem;
+		font-size: 0.7rem;opacity: 1;
 	}
 
 	sub {
 		font-size: 0.8rem;
 		position: absolute;
-		top: 0.5rem;
+		top: 0.5rem;opacity: 1;
 	}
 
 	sup {
 		font-size: 0.8rem;
 		position: absolute;
-		top: -0.5rem;
+		top: -0.5rem;opacity: 1;
 	}
 
 	blockquote {
@@ -534,28 +543,28 @@ input, select, textarea {
 
 		h1 {
 			font-size: 2.25rem;
-			line-height: 1.2;
+			line-height: 1.2;opacity: 1;
 		}
 
 			h1.major {
-				margin: 0 0 2.625rem 0;
+				margin: 0 0 2.625rem 0;opacity: 1;
 			}
 
 				h1.major:after {
-					bottom: -1.325rem;
+					bottom: -1.325rem;opacity: 1;
 				}
 
 		h2 {
 			font-size: 1.5rem;
-			line-height: 1.2;
+			line-height: 1.2;opacity: 1;
 		}
 
 			h2.major {
-				margin: 0 0 1.9875rem 0;
+				margin: 0 0 1.9875rem 0;opacity: 1;
 			}
 
 				h2.major:after {
-					bottom: -1.2rem;
+					bottom: -1.2rem;opacity: 1;
 				}
 
 		h3 {
@@ -2261,6 +2270,7 @@ input, select, textarea {
 		border-bottom-left-radius: 40px;
         border-bottom-right-radius: 40px;
 		border-top-left-radius: 40px;
+		
 	}
 
 		.panel > * {
@@ -2272,9 +2282,9 @@ input, select, textarea {
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/overlay.px"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+				background-image: url("../../images/overlay.px"), linear-gradient(45deg, #696969 20%, #00000 60%, #696969);
 				background-size: 128px 128px, auto;
-				opacity: 0.5;
+				opacity: 0.8;
 			}
 			
 
