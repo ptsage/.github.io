@@ -244,6 +244,16 @@ input, select, textarea {
 	}
 	p.date {
 		font-size: 0.8rem;
+		position: relative;
+		bottom: -0.5rem;
+		text-align: center;
+	}
+	p.date2 {
+		font-size: 0.8rem;
+		position: relative;
+		left:60%;
+		margin-left: -25%;
+	}
 	h2 {
 		font-size: 2.25rem;
 	}
