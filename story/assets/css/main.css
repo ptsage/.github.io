@@ -37,6 +37,7 @@ ol, ul {
 	list-style: none;
 }
 
+
 blockquote, q {
 	quotes: none;
 }
@@ -222,11 +223,12 @@ input, select, textarea {
 		letter-spacing: -0.05em;
 		margin: 0 0 1rem 0;
 		text-decoration: underline;
-	}
+		
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
+			
 		}
 
 	h1 {
@@ -3768,7 +3770,7 @@ input, select, textarea {
 				}
 
 		}
-
+		
 		@media screen and (max-width: 980px) {
 
 			.banner.style2 {
