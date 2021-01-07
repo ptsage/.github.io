@@ -8670,20 +8670,20 @@ input, select, textarea {
 				box-shadow: none !important;
 			}
 body .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 371px;
-  padding: 0 5px;
-  margin-top: 40px;
-  border-radius: 20px;
-color: #39c62d;
-  font-weight: 100;
-  box-shadow: 0px 0px 70px 0px #274684;
-background: none;
-  overflow: hidden;
-  margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 371px;
+	padding: 0 5px;
+	margin-top: 40px;
+	border-radius: 20px;
+	color: #39c62d;
+	font-weight: 100;
+	box-shadow: 0px 0px 70px 20px #717171;
+	background: none;
+	overflow: hidden;
+	margin-bottom: 50px;
   
 }
 body .card .current-song {
@@ -8694,9 +8694,7 @@ body .card .current-song {
   padding: 20px 0px;
   border-radius: 20px;
   color: #071739;
-  background-image: url("../../IMG/cover.png");
-background-size:cover;
-  background-repeat: no-repeat;
+
   }
 
 body .card .current-song audio {
