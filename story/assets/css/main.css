@@ -200,10 +200,12 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		text-align: center;
+		font-size: 15px;
 	}
 
 		p.major {
-			font-size: 1.25rem;
+			font-size: 1rem;
 		}
 	p.date { 
 		font-size: 1.25rem;
