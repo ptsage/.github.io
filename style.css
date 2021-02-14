@@ -23,8 +23,8 @@ body {
 }
 
 .wrp-login {
-    width: 350px;
-    height: 480px;
+    width: 340px;
+    height: 490px;
     position: relative;
     z-index: 1;
     background: inherit;
