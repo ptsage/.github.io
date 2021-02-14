@@ -274,7 +274,7 @@ input, select, textarea {
 			 object-fit: cover;
 			 background-repeat: repeat, repeat-x;
 			}
-		} 
+	
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -2294,7 +2294,7 @@ input, select, textarea {
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/overlay.px"), linear-gradient(45deg, #696969 20%, #00000 60%, #696969);
+				background-image: url("../../images/overlay.px"), linear-gradient(45deg, #696969 20%, #fff 60%, #696969);
 				background-size: 128px 128px, auto;
 				opacity: 0.8;
 			}
@@ -2393,7 +2393,7 @@ input, select, textarea {
 					padding-block: revert;
 					padding-left: 2;
 }
-			}
+			
 
 				.panel > .intro.joined + .inner {
 					padding-left: 2.625rem;
