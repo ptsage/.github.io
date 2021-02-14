@@ -148,4 +148,6 @@ body {
     background-size: 120% 150%;
     background-position: 600% 600%;
 }
-
+@media all and (max-width: 344px) and (min-width: 280px) {
+    .input-wrapper .icon {
+        display: none;}
