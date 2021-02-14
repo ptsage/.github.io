@@ -31,7 +31,7 @@ body {
     overflow: hidden;
     box-shadow: -2px -4px 7px rgba(255, 255, 255, 0.151), 0 4px 5px rgba(255, 255, 255, 0.185);
     border-radius: 2rem;
-    margin: 1.5rem;
+    margin: 2rem;
    
 }
 .wrp-login:before {
